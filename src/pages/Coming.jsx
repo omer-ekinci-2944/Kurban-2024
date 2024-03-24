@@ -38,35 +38,35 @@ const Coming = () => {
         </div>
 
         {/* Footer */}
-        <div className="flex flex-col md:flex-row space-y-4 text-center items-center justify-between text-sac-gray pb-8 ">
-          <p className="hidden md:block">
-            Tüm hakları saklıdır. ©2024 İnsan ve Medeniyet Hareketi Ankara
+        <div className="flex flex-col lg:flex-row space-y-4 text-center items-center justify-between text-sac-gray pb-8 ">
+          <p className="hidden lg:block">
+            Tüm hakları saklıdır. © 2024 İnsan ve Medeniyet Hareketi Ankara
           </p>
-          <p className="block md:hidden leading-10">
-            Tüm hakları saklıdır. ©2024 İnsan ve Medeniyet Hareketi Ankara
+          <p className="block lg:hidden leading-10">
+            Tüm hakları saklıdır. © 2024 İnsan ve Medeniyet Hareketi Ankara
           </p>
           {/* Icons */}
           <div className="flex space-x-2">
             <a
               href="https://www.facebook.com/imhankara06"
               target="_blank"
-              className="bi bi-facebook text bg-sac-dark-white text-sac-dark-gray hover:text-sac-primary rounded-sm transition duration-300 px-2 py-1"
+              className="bi bi-facebook text-lg bg-sac-dark-white text-sac-dark-gray hover:text-sac-primary rounded-sm transition duration-300 px-2 py-1"
             ></a>
             <a
               href="https://twitter.com/imhankara"
               target="_blank"
-              className="bi bi-twitter-x bg-sac-dark-white text-sac-dark-gray hover:text-sac-primary rounded-sm transition duration-300 px-2 py-1"
+              className="bi bi-twitter-x text-lg bg-sac-dark-white text-sac-dark-gray hover:text-sac-primary rounded-sm transition duration-300 px-2 py-1"
               icon="fa-brands fa-facebook-f"
             ></a>
             <a
               href="https://www.instagram.com/imhankara06/"
               target="_blank"
-              className="bi bi-instagram bg-sac-dark-white text-sac-dark-gray hover:text-sac-primary rounded-sm transition duration-300 px-2 py-1"
+              className="bi bi-instagram text-lg bg-sac-dark-white text-sac-dark-gray hover:text-sac-primary rounded-sm transition duration-300 px-2 py-1"
             ></a>
             <a
               href="https://www.youtube.com/@insanvemedeniyethareketiankara"
               target="_blank"
-              className="bi bi-youtube bg-sac-dark-white text-sac-dark-gray hover:text-sac-primary rounded-sm transition duration-300 px-2 py-1"
+              className="bi bi-youtube text-lg bg-sac-dark-white text-sac-dark-gray hover:text-sac-primary rounded-sm transition duration-300 px-2 py-1"
             ></a>
           </div>
         </div>
