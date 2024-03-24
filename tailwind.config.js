@@ -5,13 +5,13 @@ export default {
     container: {
       center: true,
       // default breakpoints but with 40px removed
-      // screens: {
-      //   sm: "540px",
-      //   md: "720px",
-      //   lg: "960px",
-      //   xl: "1140px",
-      //   "2xl": "1320px",
-      // },
+      screens: {
+        sm: "540px",
+        md: "720px",
+        lg: "960px",
+        xl: "1140px",
+        "2xl": "1320px",
+      },
     },
     extend: {
       fontFamily: {
