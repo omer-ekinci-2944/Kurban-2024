@@ -19,7 +19,7 @@ const Coming = () => {
             target="_blank"
             className="text-white bg-sac-primary hover:bg-sac-primary-dark transition duration-500 hover:shadow-lg px-4 py-2 text-lg rounded-md hidden sm:block"
           >
-            Kesim YeriA
+            Kesim Yeri
           </a>
         </div>
 
