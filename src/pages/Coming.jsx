@@ -5,7 +5,7 @@ import mobileView from "../assets/mobileView.png";
 const Coming = () => {
   return (
     <>
-      <div className="container md: h-screen flex flex-col space-y-4 justify-between px-4">
+      <div className="container min-h-screen flex flex-col justify-between px-4">
         {/* Navbar */}
         <div className="flex items-center justify-between mt-6">
           <div className="flex items-center space-x-0 ">
@@ -34,7 +34,7 @@ const Coming = () => {
         </div>
 
         {/* Görsel */}
-        <div className="mx-auto w-1/2 md:w-4/6">
+        <div className="mx-auto w-4/6">
           {/* For mobile */}
           <img src={mobileView} className="md:hidden" />
           {/* For desktop */}
@@ -44,8 +44,7 @@ const Coming = () => {
         {/* Footer */}
         <div className="flex flex-col lg:flex-row space-y-4 text-center items-center justify-between text-sac-gray pb-4">
           <p className="hidden lg:block">
-            Tüm hakları saklıdır. © 2024 İnsan ve Medeniyet Hareketi
-            Ankara
+            Tüm hakları saklıdır. © 2024 İnsan ve Medeniyet Hareketi Ankara
           </p>
           <p className="block lg:hidden">
             Tüm hakları saklıdır. <br />© 2024 İnsan ve Medeniyet Hareketi
