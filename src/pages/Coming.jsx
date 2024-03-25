@@ -1,10 +1,11 @@
 import Logo from "../components/Logo";
-import responsive from "../assets/responsive.png";
+import responsiveView from "../assets/responsiveView.png";
+import mobileView from "../assets/mobileView.png";
 
 const Coming = () => {
   return (
     <>
-      <div className="flex flex-col h-screen justify-between">
+      <div className="container md: h-screen flex flex-col space-y-4 justify-between px-4">
         {/* Navbar */}
         <div className="flex items-center justify-between mt-6">
           <div className="flex items-center space-x-0 ">
@@ -23,7 +24,7 @@ const Coming = () => {
         </div>
 
         {/* Yayında */}
-        <div className="my-2">
+        <div className="mt-2">
           <p className="font-header font-bold text-center text-4xl md:text-5xl mb-5 tracking-wide">
             Henüz çok erken.
           </p>
@@ -33,17 +34,22 @@ const Coming = () => {
         </div>
 
         {/* Görsel */}
-        <div className="mx-auto md:-my-16">
-          <img src={responsive} className="md:scale-75" />
+        <div className="mx-auto w-1/2 md:w-4/6">
+          {/* For mobile */}
+          <img src={mobileView} className="md:hidden" />
+          {/* For desktop */}
+          <img src={responsiveView} className="hidden md:block" />
         </div>
 
         {/* Footer */}
-        <div className="flex flex-col lg:flex-row space-y-4 text-center items-center justify-between text-sac-gray pb-8 ">
-          <p className="hidden lg:block">
-            Tüm hakları saklıdır. © 2024 İnsan ve Medeniyet Hareketi Ankara
+        <div className="flex flex-col lg:flex-row space-y-4 text-center items-center justify-between text-sac-gray pb-4">
+          <p className="hidden lg:block line-clamp">
+            Tüm hakları saklıdır. <br />© 2024 İnsan ve Medeniyet Hareketi
+            Ankara
           </p>
-          <p className="block lg:hidden leading-10">
-            Tüm hakları saklıdır. © 2024 İnsan ve Medeniyet Hareketi Ankara
+          <p className="block lg:hidden line-clamp">
+            Tüm hakları saklıdır. <br />© 2024 İnsan ve Medeniyet Hareketi
+            Ankara
           </p>
           {/* Icons */}
           <div className="flex space-x-2">
