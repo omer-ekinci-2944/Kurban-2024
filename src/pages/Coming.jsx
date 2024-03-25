@@ -43,11 +43,11 @@ const Coming = () => {
 
         {/* Footer */}
         <div className="flex flex-col lg:flex-row space-y-4 text-center items-center justify-between text-sac-gray pb-4">
-          <p className="hidden lg:block line-clamp">
-            Tüm hakları saklıdır. <br />© 2024 İnsan ve Medeniyet Hareketi
+          <p className="hidden lg:block">
+            Tüm hakları saklıdır. © 2024 İnsan ve Medeniyet Hareketi
             Ankara
           </p>
-          <p className="block lg:hidden line-clamp">
+          <p className="block lg:hidden">
             Tüm hakları saklıdır. <br />© 2024 İnsan ve Medeniyet Hareketi
             Ankara
           </p>
