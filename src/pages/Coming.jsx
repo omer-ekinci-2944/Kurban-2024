@@ -5,7 +5,7 @@ import mobileView from "../assets/mobileView.png";
 const Coming = () => {
   return (
     <>
-      <div className="container min-h-screen flex flex-col justify-between px-4">
+      <div className="container min-h-screen flex flex-col justify-between space-y-8 px-4">
         {/* Navbar */}
         <div className="flex items-center justify-between mt-6">
           <div className="flex items-center space-x-0 ">
